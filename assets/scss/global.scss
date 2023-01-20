@@ -1,0 +1,30 @@
+html {
+  word-break: break-word;
+  text-rendering: optimizeLegibility;
+  color: #333;
+  background-color: #f4f5f5;
+}
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+.shadow{
+  box-shadow: 0 0.1rem 0.5rem 0 rgba(0, 0, 0, .05);
+}
+.ellipsis{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.main{
+  width: 960px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.el-dropdown .el-button-group button:last-child {
+  padding-left: 0;
+  padding-right: 0;
+}
